@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --products-color: #cce7d0;
+  --white-color: #fff;
+  --black-color: #000;
+  --text-color: #686868;
+  --header-color: #e3e6f3;
+  --border-color: #fddde4;
+  --green-color: #088178;
+  --star-gold-color: #ffce3e;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 4rem;
+  color: var(--black-color);
+}
+h2 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: var(--black-color);
+}
+h6 {
+  font-weight: 700;
+  font: 1rem;
+}
+
+p {
+  font-size: 1.6rem;
+  color: var(--text-color);
+  margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+.section-m1 {
+  margin: 40px 0;
+}
+
+button.normal {
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: var(--black-color);
+  background-color: var(--white-color);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+button.white {
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: var(--white-color);
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid var(--white-color);
+  transition: 0.2s;
+}
+
+body {
+  width: 100%;
+}
