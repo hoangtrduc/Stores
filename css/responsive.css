@@ -35,6 +35,7 @@
 
   #close {
     position: absolute;
+    display: block;
     top: 30px;
     left: 30px;
     color: #222;
