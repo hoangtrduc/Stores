@@ -37,10 +37,6 @@
   color: var(--green-color);
 }
 
-#close {
-  display: none;
-}
-
 .active::after,
 .navbar_menu-a:hover::after {
   content: '';
